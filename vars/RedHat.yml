@@ -1,3 +1,4 @@
 ---
 ssh_client_pkgs:
-  - openssh-client
+  - openssh
+  - openssh-clients
