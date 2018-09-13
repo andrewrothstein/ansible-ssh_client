@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Andrew Rothstein
-  description: role to install ssh client and related tools
+  description: role to install ssh client tools
   company: BlackRock
   license:
     - MIT
@@ -12,10 +12,16 @@ galaxy_info:
         - 7
     - name: Fedora
       versions:
-        - 23
+        - all
     - name: Ubuntu
       versions:
-        - xenial
+        - all
+    - name: Archlinux
+      versions:
+        - all
+    - name: Alpine
+      versions:
+        - all
   galaxy_tags:
     - development
 
