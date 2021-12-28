@@ -1,6 +1,6 @@
 andrewrothstein.ssh-client
 ===========================
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-ssh-client.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-ssh-client)
+![Build Status](https://github.com/andrewrothstein/ansible-ssh-client/actions/workflows/build.yml/badge.svg)
 
 Installs ssh client tooling
 
