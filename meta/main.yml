@@ -31,4 +31,5 @@ galaxy_info:
   galaxy_tags:
     - development
 
-dependencies: []
+dependencies:
+  - andrewrothstein.epel

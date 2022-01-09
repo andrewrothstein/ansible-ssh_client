@@ -12,7 +12,6 @@
 - name: install os pkgs
   become: yes
   become_user: root
-  with_items: '{{ ssh_client_pkgs }}'
   package:
-    name: '{{ item }}'
+    name: '{{ ssh_client_pkgs }}'
     state: present

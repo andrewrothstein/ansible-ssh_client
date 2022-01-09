@@ -2,3 +2,4 @@
 ssh_client_pkgs:
   - openssh
   - openssh-clients
+  - sshpass
