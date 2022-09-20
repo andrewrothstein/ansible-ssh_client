@@ -31,6 +31,3 @@ galaxy_info:
         - focal
   galaxy_tags:
     - development
-
-dependencies:
-  - andrewrothstein.epel

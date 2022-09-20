@@ -1,4 +1,6 @@
 ---
+- include_role:
+    name: andrewrothstein.epel
 - name: resolve platform specific vars
   include_vars: '{{ item }}'
   with_first_found:
@@ -10,7 +12,7 @@
       paths:
         - '{{ role_path }}/vars'
 - name: install os pkgs
-  become: yes
+  become: true
   become_user: root
   package:
     name: '{{ ssh_client_pkgs }}'
